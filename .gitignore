@@ -1,0 +1,10 @@
+# Ignored file formats
+*.a
+*.o
+
+# Ignored files
+Cargo.lock
+
+# Ignored directories
+.idea/
+target/

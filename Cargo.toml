@@ -1,0 +1,23 @@
+[package]
+name = "fk_std"
+version = "0.3.3"
+edition = "2018"
+authors = ["The sbFomos developers"]
+readme = "README.md"
+documentation = "https://github.com/sbFomos/fk_std/tree/master/Documentation"
+description = "A library used for FOMOSv2-CL development and FOMOS app development"
+license = "MIT"
+
+[lib]
+name = "fk_std"
+edition = "2018"
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+libc = "0.2.85"
